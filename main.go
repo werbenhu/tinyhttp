@@ -76,7 +76,7 @@ func onReady() {
 	showWindowAsync.Call(consoleHandle, 0)
 	// showWindowAsync.Call(consoleHandle, 5)
 
-	adminUrl := "http://localhost:" + *p + "/index.html"
+	adminUrl := "http://localhost:" + *p
 
 	go func() {
 		for {
